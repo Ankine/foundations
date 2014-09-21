@@ -3784,7 +3784,8 @@ dialog::backdrop {
     .clearing-main-prev > span {
       left: 5px;
       border-color: transparent;
-      border-right-color: #cccccc; }
+      border-right-color: #cccccc; 
+    }
 
   .clearing-main-next {
     right: 0; }
@@ -4127,7 +4128,7 @@ dialog::backdrop {
   -ms-transition: -ms-transform 500ms ease;
   -o-transition: -o-transform 500ms ease;
   transition: transform 500ms ease;
-  height: 100%;}
+  height: 90%;}
   .inner-wrap:before, .inner-wrap:after {
     content: " ";
     display: table; }
@@ -4283,7 +4284,7 @@ ul.off-canvas-list {
   -ms-transform: translate3d(15.625rem, 0, 0);
   -o-transform: translate3d(15.625rem, 0, 0);
   transform: translate3d(15.625rem, 0, 0); 
-height:100%;}
+height:90%;}
 
 .move-right .exit-off-canvas {
   -webkit-backface-visibility: hidden;
